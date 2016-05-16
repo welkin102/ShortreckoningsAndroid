@@ -9,7 +9,7 @@
     android:clickable="true"
     android:layout_marginRight="16dp"
     app:cardBackgroundColor="@color/card_grey"
-    app:cardCornerRadius="5dp"
+    app:cardCornerRadius="2dp"
     app:cardElevation="5dp">
 
     <RelativeLayout
