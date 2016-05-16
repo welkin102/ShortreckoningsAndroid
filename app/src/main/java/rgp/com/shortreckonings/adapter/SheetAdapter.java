@@ -44,7 +44,7 @@ public class SheetAdapter extends RecyclerView.Adapter<SheetAdapter.Sheet_VH> {
         Sheet currentItem = serviceItems.get(position);
         holder.title.setText(currentItem.title);
         holder.date.setText(currentItem.date);
-        holder.people.setText("Shred with "+currentItem.people);
+        holder.people.setText("Shared with "+currentItem.people);
         if(currentItem.amount>0) {
             holder.amount.setTextColor(context.getResources().getColor(R.color.get_green));
             holder.amount.setText(currentItem.amount+ " you get");
