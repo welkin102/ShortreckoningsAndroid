@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262626"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ring_small" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/people" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame"
+        android:layout_centerHorizontal="true"
+        android:hint="Name"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:paddingBottom="16dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:hint="Nickname"
+        android:inputType="textCapWords"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:paddingBottom="16dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nickname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:gravity="bottom"
+        android:hint="Comment"
+        android:inputType="textCapSentences"
+        android:paddingBottom="16dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/add_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/name"
+        android:layout_alignRight="@+id/name"
+        android:layout_below="@+id/comment"
+        android:layout_marginTop="24dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:padding="8dp"
+        android:text="@string/add_more"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/name"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:padding="8dp"
+        android:text="Add"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:padding="8dp"
+        android:text="Cancel"
+        android:textSize="15sp" />
+
+</RelativeLayout>

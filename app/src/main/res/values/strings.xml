@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Shortreckonings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tute1">EXPENSE SHEETS</string>
+    <string name="tute2">EXPENSE SHARE</string>
+    <string name="tute3">EXPENSE SPLIT</string>
+    <string name="tute4">EXPENSE TRACK</string>
+    <string name="confirm_exit">Press Back button again to exit</string>
+    <string name="detail_text">Can remove sheets from My Sheets: Mouse over the shee My Sheets.</string>
+    <string name="title_activity_delete">DeleteActivity</string>
+    <string name="expense_sheets">EXPENSE SHEETS</string>
+    <string name="shortreckonings">ShortReckonings</string>
+    <string name="add_people">+ Add people to see people involved</string>
+    <string name="_00_00">00.00</string>
+    <string name="_15_06_2017">15/06/2017</string>
+    <string name="sheet_title_1">Sheet Title 1</string>
+    <string name="comment">One who will never be able to pay debts</string>
+    <string name="donald_dumb">Donald Dumb</string>
+    <string name="donald">Donald</string>
+    <string name="lorem_ipsum_long">Please tap here to see the initial dummy data</string>
+    <string name="paidby">Paid by Jon now on 15/06/2017</string>
+    <string name="peopleInvolved">Shred with Jon, Don, Ravi, Neeraj, Gerry</string>
+    <string name="title">Picnic Expenses Sheet</string>
+    <string name="description">Description</string>
+    <string name="paid_for">Paid for</string>
+    <string name="even_split">Even split</string>
+    <string name="add_more">+ ADD MORE</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="skip">SKIP</string>
+</resources>
+

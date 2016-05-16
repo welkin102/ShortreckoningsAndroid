@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="rgp.com.shortreckonings.ui.fragment.CalculateFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/final_split_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/saparator"
+        android:layout_marginTop="16dp"
+        android:visibility="gone">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:src="@drawable/calculator_light" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="ADD EXPENSES FIRST"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:maxLines="2"
+            android:text="@string/lorem_ipsum_long"
+            android:textColor="@color/grey4"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/saparator"
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:layout_above="@+id/des_amount"
+        android:layout_marginBottom="4dp"
+        android:background="#555555" />
+
+    <TextView
+        android:id="@+id/des_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/total_amount"
+        android:text="Total Expenses"
+        android:textColor="@color/grey4"
+        android:textSize="11sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="2341.78"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/des_stat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stats"
+        android:layout_alignParentRight="true"
+        android:text="Your debt"
+        android:textColor="@color/grey4"
+        android:textSize="11sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:includeFontPadding="false"
+        android:text="431.78"
+        android:textColor="@color/debt_red"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
