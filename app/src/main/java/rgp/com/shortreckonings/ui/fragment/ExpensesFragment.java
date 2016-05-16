@@ -83,7 +83,7 @@ public class ExpensesFragment extends Fragment {
     private List<Expense> getAllExpenses() {
         List<Expense> expenses = new ArrayList<>();
         double[] amounts = {123.00, 2132.50, 931.43,61.00, 39.61};
-        String[] titles = {"Breakfast","Lunch at Taj","Waterpark Ride","Movie Time","nightout at PU"};
+        String[] titles = {"Breakfast","Lunch at Taj","Water park Ride","3D movie at bay","Night out at PU"};
         String[] paidBy = {"Jon","Titan","Rob","Jimm","Bradd"};
 
         for (int i=0 ; i < titles.length ; i++ ) {
